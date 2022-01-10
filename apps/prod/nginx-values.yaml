@@ -13,3 +13,9 @@ spec:
       version: '9.6.1'
   interval: 1m0s
   releaseName: nginx-9.6.1
+
+
+  # dependencies:
+  # - name: nginx
+  #   version: 9.6.1
+  #   repository: https://charts.bitnami.com/bitnami
