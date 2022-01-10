@@ -10,7 +10,7 @@ spec:
       chart: nginx
       sourceRef:
         kind: HelmRepository
-        name: bitnami
+        name: nginx
         namespace: flux-system
   interval: 20s
   # install:

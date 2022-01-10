@@ -9,9 +9,9 @@ spec:
       chart: nginx
       sourceRef:
         kind: HelmRepository
-        name: bitnami
+        name: nginx
       version: '9.6.1'
-  interval: 1m0s
+  interval: 20s
   releaseName: nginx-9.6.1
 
 
@@ -19,3 +19,5 @@ spec:
   # - name: nginx
   #   version: 9.6.1
   #   repository: https://charts.bitnami.com/bitnami
+  #   dependsOn:
+    # - name: infrastructure
